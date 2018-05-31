@@ -14,6 +14,10 @@ public class HelloWorldController {
         return "Hello World";
     }
 
+    @RequestMapping("/index")
+    public String index() {
+        return "index";
+    }
     /**
      * 富文本配置文件获取
      * @param request
